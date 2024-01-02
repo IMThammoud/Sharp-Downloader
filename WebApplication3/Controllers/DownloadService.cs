@@ -27,7 +27,7 @@ public class DownloadService
     {
         String binaryArguments = "-S res,ext:mp4:m4a --recode mp4";
         myDownloadObject.setBinaryType();
-        Process myprocess = Process.Start("./yt-dlp",binaryArguments+" -o downloaded-video "+myDownloadObject.myUrl);
+        Process myprocess = Process.Start(myDownloadObject.pathToBinary,binaryArguments+" -o downloaded-video "+myDownloadObject.myUrl);
 
 
         myprocess.Start(); 
