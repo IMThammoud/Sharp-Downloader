@@ -29,7 +29,9 @@ public class DownloadService
         myDownloadObject.setBinaryType();
         Process myprocess = Process.Start("./yt-dlp",binaryArguments+" -o downloaded-video "+myDownloadObject.myUrl);
 
-        myprocess.Start();
+
+        myprocess.Start(); 
+        myprocess.WaitForExit();
     }
     
     
