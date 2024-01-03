@@ -33,6 +33,9 @@ Der Server hatte ständig gemeckert, dass der Medien-Typ des Inhalts den wir an 
 Am Anfang dachten wir es sei der Browser oder die Art und weise wie der Client einen HTTP-Request an den Server schickt. Es war jedoch ein falsch angegebener Parameter in der Endpunkt-Methode UND der falsche Medien-Typ-Header in der Response.
 Ein weiterer Knackpunkt war es lauffähig unter Windows10/11 zu machen. Die Tatsache, dass unser Downloader auf eine Binary basiert die unterschiedlich ausgeführt werden muss (je nach dem welches OS) war es zu Beginn schwierig die richtige Formatierung für Windows zu finden. Dieses Problem wurde umgangen mit einer Methode, die kontrolliert welches OS momentan vorhanden ist (Wahrscheinlich durch Environment Variablen). Wenn Win10/11 installiert war, wurde im Code von der Linux Formatierung auf die Win10/11 Formatierung geschaltet und das Programm lief einwandfrei weiter.
 
+# Limitationen:
+### Im aktuellen Stand kann nur ein Video runtergeladen werden. Es muss anschließend vom Server gelöscht werden um ein neues runterladen zu können.
+### An einer Funktion, die die Videos löscht oder ihnen auch verschiedene Namen gibt haben wir zwar gearbeitet aber die Zeit war zu knapp, da wir unser erstes Projekt gecancelt haben.
 ## Featurewünsche:
 
 Eine Funktion für Audio-only war in Bearbeitung aber hat es dann doch wegen der Zeit nicht in den commit geschafft.
