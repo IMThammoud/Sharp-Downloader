@@ -1,6 +1,14 @@
 {
   "Files": [
     {
+      "Id": "/home/hassan/RiderProjects/WebApplication3/WebApplication3/wwwroot/Kritzelbob.png",
+      "PackagePath": "staticwebassets/Kritzelbob.png"
+    },
+    {
+      "Id": "/home/hassan/RiderProjects/WebApplication3/WebApplication3/wwwroot/about.html",
+      "PackagePath": "staticwebassets/about.html"
+    },
+    {
       "Id": "/home/hassan/RiderProjects/WebApplication3/WebApplication3/wwwroot/index.html",
       "PackagePath": "staticwebassets/index.html"
     },

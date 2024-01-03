@@ -3,6 +3,9 @@ using System.Diagnostics;
 
 namespace WebApplication3.Controllers;
 
+// This class has the runDownloader() method that uses the yt-dlp binary
+// The arguments for the binary can be edited here
+// myProcess().waitForExit() will wait until the download of the video finishes before ending the block.
 public class DownloadService
 {
     public DownloadPreparation myDownloadObject = new DownloadPreparation();
