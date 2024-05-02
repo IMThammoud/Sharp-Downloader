@@ -9,9 +9,9 @@ public class DownloadPreparation
 
     public String myUrl;
 
-    public String uniqueVideoName = "videos/"+"1";
+    public String uniqueVideoName = "videos/"+ System.Guid.NewGuid();
     
-    public String getUniqueVideoNameAudio = "videos/" + System.Guid.NewGuid();
+    public String getUniqueAudioName = "audio/" + System.Guid.NewGuid();
 
     public String getPathToBinary()
     {

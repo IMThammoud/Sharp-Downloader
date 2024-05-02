@@ -26,15 +26,44 @@ public class DownloadService
         myDownloadObject.myUrl = url;
     }
 
-    public void runDownloader()
+    public void DownloadVideo()
     {
-        String binaryArguments = "-S res,ext:mp4:m4a --recode mp4";
+         String binaryArguments = "-S res,ext:mp4:m4a";
+        // String binaryArguments = "-S res,ext:mp4:m4a --recode mp4";
         myDownloadObject.setBinaryType();
-        Process myprocess = Process.Start(myDownloadObject.pathToBinary,binaryArguments+" -o downloaded-video "+myDownloadObject.myUrl);
+        // added .mp4 to filenime incase the arguments above leads to error when download cant be converted to mp4
+        Process myprocess = Process.Start(myDownloadObject.pathToBinary,
+            binaryArguments+" -o" + myDownloadObject.uniqueVideoName + ".mp4 " + myDownloadObject.myUrl);
 
 
         myprocess.Start(); 
         myprocess.WaitForExit();
+    }
+
+    public void DownloadAudio()
+    {
+        String binaryArguments = "--extract-audio --audio-format wav";
+        
+        myDownloadObject.setBinaryType();
+        
+        Process myProcess = Process.Start(myDownloadObject.pathToBinary,
+            binaryArguments + " -o" + myDownloadObject.getUniqueAudioName + ".mp3 " + myDownloadObject.myUrl);
+
+        myProcess.Start();
+        myProcess.WaitForExit();
+    }
+    // DownloadTranscript() pulls the mp3 data and extract the text with AI using LocalAI Model "Whisper"
+    public void DownloadTranscript()
+    {
+        String binaryArguments = "--extract-audio --audio-format wav";
+        
+        myDownloadObject.setBinaryType();
+        
+        Process myProcess = Process.Start(myDownloadObject.pathToBinary,
+            binaryArguments + " -o" + myDownloadObject.getUniqueAudioName + ".mp3 " + myDownloadObject.myUrl);
+
+        myProcess.Start();
+        myProcess.WaitForExit();
     }
     
     

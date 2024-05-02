@@ -1,16 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "/SkY73iwoyrIB4aFrQ16RKqf5HibkEJJ05EZZUPhY9zc/xpMzOGXGy7EY+108lY1EgM78C9KbmOlBNUNcZjuhA==",
+  "dgSpecHash": "2zyDVdZrn0gzuWlkKHM+fLokDpSqKGAcBdKePUKbuzU1ZVOEJnDiWM+N/3f1LEbKDn5rTRZa33XEP3/hRgoODQ==",
   "success": true,
-  "projectFilePath": "/home/hassan/RiderProjects/WebApplication3/WebApplication3/WebApplication3.csproj",
+  "projectFilePath": "/home/zaan/myprojects/Sharp-Downloader/WebApplication3/WebApplication3.csproj",
   "expectedPackageFiles": [
-    "/home/hassan/.nuget/packages/microsoft.aspnetcore.openapi/7.0.14/microsoft.aspnetcore.openapi.7.0.14.nupkg.sha512",
-    "/home/hassan/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-    "/home/hassan/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
-    "/home/hassan/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
-    "/home/hassan/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
-    "/home/hassan/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
-    "/home/hassan/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+    "/home/zaan/.nuget/packages/microsoft.aspnetcore.openapi/7.0.14/microsoft.aspnetcore.openapi.7.0.14.nupkg.sha512",
+    "/home/zaan/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/zaan/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/home/zaan/.nuget/packages/restsharp/110.2.0/restsharp.110.2.0.nupkg.sha512",
+    "/home/zaan/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/home/zaan/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/home/zaan/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/home/zaan/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "/home/zaan/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
+    "/home/zaan/.nuget/packages/system.text.json/7.0.2/system.text.json.7.0.2.nupkg.sha512"
   ],
   "logs": []
 }

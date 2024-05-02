@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="paper.css">
     <style>
         body {
-            display: flex;
+            text-align: center;
             justify-content: center;
             align-items: center;
             height: 100%;
@@ -15,9 +15,10 @@
     </style>
 </head>
 <body>
-<nav class="border fixed split-nav">
+<nav style="background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);" class="border fixed split-nav">
     <div class="nav-brand">
-        <h3><a href="index.html">Sharp # Downloader</a></h3>
+        <h3><a href="index.html"><img src="Sharplogo.png" class= "no-border" alt="Sharp-logo"></a>
+        </h3>
     </div>
     <div class="collapsible">
         <input id="collapsible1" type="checkbox" name="collapsible1">
@@ -34,13 +35,37 @@
         </div>
     </div>
 </nav>
+<div style=" background-color: #d6ccce;display: flex;margin: auto;margin-top: 100px;width: 100%">
 <form style="margin-top: 5%;text-align: center" action="/Videos" method="post" class="row flex-center margin-top-large ">
-    <div style="width: 100%; height: 100%" >
-        <input type="text" name="url" placeholder="URL mandatory" class="row flex-center margin-top-large">
-        <input type="submit" value="Submit" class="row flex-center margin-top-large" >
-        <img src="Kritzelbob.png" class= "no-border" alt="Kritzelbob aus Spongebob">
-        <h6 class="badge secondary" style="text-align: center">Created by [Hammoud, Zak, Scholz]</h6>
+    <div style="width: 300px; height: auto" >
+        <label class="badge primary" for="transcript"> Video File</label>
+        <input type="text" name="url" placeholder="URL eingeben" class="row flex-center margin-top-large">
+        <input type="submit" value="DOWNLOAD" class="row flex-center margin-top-large" >
+        <h6 class="badge secondary" style="text-align: center">YT-DLP under the hood</h6>
     </div>
+    
 </form>
+    <form style="margin-top: 5%;text-align: center" action="/Audio" method="post" class="row flex-center margin-top-large ">
+        <div style="width: 300px; height: auto" >
+            <label class="badge primary" for="transcript"> Audio File</label>
+            <input type="text" name="audio_url" placeholder="URL eingeben" class="row flex-center margin-top-large">
+            <input type="submit" value="DOWNLOAD" class="row flex-center margin-top-large" >
+            <h6 class="badge secondary" style="text-align: center">YT-DLP under the hood</h6>
+        </div>
+        
+    </form>
+    <form style="margin-top: 5%;text-align: center" action="/Transcript" method="post" class="row flex-center margin-top-large ">
+        <div id="transcript" style="width: 300px; height: auto" >
+            <label class="badge primary" for="transcript"> Transcript</label>
+            <input type="text" name="audio_url" placeholder="URL eingeben" class="row flex-center margin-top-large">
+            <input type="submit" value="DOWNLOAD" class="row flex-center margin-top-large" >
+            <h6 class="badge secondary" style="text-align: center">Extracted by LocalAI-Whisper Model </h6>
+        </div>
+        
+    </form>
+</div>
+
+
+<footer style="border: none"><img style="border: none;" src="wave.svg" alt="" srcset=""></footer>
 </body>
 </html>

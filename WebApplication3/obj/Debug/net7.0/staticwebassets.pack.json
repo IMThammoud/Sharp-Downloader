@@ -1,20 +1,24 @@
 {
   "Files": [
     {
-      "Id": "/home/hassan/RiderProjects/WebApplication3/WebApplication3/wwwroot/Kritzelbob.png",
-      "PackagePath": "staticwebassets/Kritzelbob.png"
+      "Id": "/home/zaan/myprojects/Sharp-Downloader/WebApplication3/wwwroot/Sharplogo.png",
+      "PackagePath": "staticwebassets/Sharplogo.png"
     },
     {
-      "Id": "/home/hassan/RiderProjects/WebApplication3/WebApplication3/wwwroot/about.html",
+      "Id": "/home/zaan/myprojects/Sharp-Downloader/WebApplication3/wwwroot/about.html",
       "PackagePath": "staticwebassets/about.html"
     },
     {
-      "Id": "/home/hassan/RiderProjects/WebApplication3/WebApplication3/wwwroot/index.html",
+      "Id": "/home/zaan/myprojects/Sharp-Downloader/WebApplication3/wwwroot/index.html",
       "PackagePath": "staticwebassets/index.html"
     },
     {
-      "Id": "/home/hassan/RiderProjects/WebApplication3/WebApplication3/wwwroot/paper.css",
+      "Id": "/home/zaan/myprojects/Sharp-Downloader/WebApplication3/wwwroot/paper.css",
       "PackagePath": "staticwebassets/paper.css"
+    },
+    {
+      "Id": "/home/zaan/myprojects/Sharp-Downloader/WebApplication3/wwwroot/wave.svg",
+      "PackagePath": "staticwebassets/wave.svg"
     },
     {
       "Id": "obj/Debug/net7.0/staticwebassets/msbuild.WebApplication3.Microsoft.AspNetCore.StaticWebAssets.props",
