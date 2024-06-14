@@ -42,7 +42,7 @@ public class DownloadService
 
     public void DownloadAudio()
     {
-        String binaryArguments = "--extract-audio --audio-format wav";
+        String binaryArguments = "--extract-audio --audio-format mp3";
         
         myDownloadObject.setBinaryType();
         

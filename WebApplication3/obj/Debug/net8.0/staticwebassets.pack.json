@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "/home/zaan/myprojects/Sharp-Downloader/WebApplication3/wwwroot/Kritzelbob.png",
+      "PackagePath": "staticwebassets/Kritzelbob.png"
+    },
+    {
+      "Id": "/home/zaan/myprojects/Sharp-Downloader/WebApplication3/wwwroot/Sharplogo.png",
+      "PackagePath": "staticwebassets/Sharplogo.png"
+    },
+    {
+      "Id": "/home/zaan/myprojects/Sharp-Downloader/WebApplication3/wwwroot/about.html",
+      "PackagePath": "staticwebassets/about.html"
+    },
+    {
+      "Id": "/home/zaan/myprojects/Sharp-Downloader/WebApplication3/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/home/zaan/myprojects/Sharp-Downloader/WebApplication3/wwwroot/paper.css",
+      "PackagePath": "staticwebassets/paper.css"
+    },
+    {
+      "Id": "/home/zaan/myprojects/Sharp-Downloader/WebApplication3/wwwroot/wave.svg",
+      "PackagePath": "staticwebassets/wave.svg"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.WebApplication3.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.WebApplication3.props",
+      "PackagePath": "build\\WebApplication3.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.WebApplication3.props",
+      "PackagePath": "buildMultiTargeting\\WebApplication3.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.WebApplication3.props",
+      "PackagePath": "buildTransitive\\WebApplication3.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
